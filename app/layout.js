@@ -1,9 +1,13 @@
 import "./globals.css";
 
+// Marca "guarda-chuva" — serve para todos os produtos.
+// Troque pelo nome do seu domínio/marca.
 export const metadata = {
-  title: "Pet Ateliê — 100 Moldes Profissionais de Roupas para Pets",
-  description:
-    "Costure roupas de pet com acabamento profissional e transforme sua costura em renda. 100 moldes prontos para imprimir + 7 bônus, por apenas R$10.",
+  title: {
+    default: "Ofertas Digitais",
+    template: "%s",
+  },
+  description: "Produtos digitais com acesso imediato.",
 };
 
 export default function RootLayout({ children }) {

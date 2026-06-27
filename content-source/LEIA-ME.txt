@@ -1,0 +1,3 @@
+Coloque aqui a pasta "100 MOLDES PETS 2" antes de rodar:
+
+  npm run upload

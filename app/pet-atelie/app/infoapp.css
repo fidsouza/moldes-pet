@@ -1,0 +1,187 @@
+/*
+  Estilos do INFOAPP (área de membros) — isolados sob `.infoapp`.
+  Tudo aqui só vale dentro de <div className="infoapp">, então não conflita
+  com o CSS da landing (que é global). As variáveis de tema são redefinidas
+  em `.infoapp`, sobrescrevendo as da landing apenas dentro do app.
+*/
+.infoapp {
+  --green: #008118;
+  --green-d: #00660f;
+  --green-l: #e8f5ea;
+  --green-glow: rgba(0, 129, 24, 0.18);
+  --ink: #18221c;
+  --muted: #61726a;
+  --bg: #f4f7f5;
+  --card: #ffffff;
+  --line: #e6ece8;
+  --shadow: 0 1px 2px rgba(16, 40, 28, 0.04), 0 8px 24px rgba(16, 40, 28, 0.06);
+  --shadow-lg: 0 12px 40px rgba(16, 40, 28, 0.12);
+  --radius: 18px;
+  --radius-sm: 12px;
+  --nav-h: 64px;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+.infoapp * { box-sizing: border-box; margin: 0; padding: 0; }
+
+.infoapp a { color: inherit; text-decoration: none; }
+.infoapp button { font-family: inherit; cursor: pointer; border: none; background: none; }
+.infoapp img { max-width: 100%; display: block; }
+
+.infoapp .app-shell {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 16px;
+  padding-bottom: calc(var(--nav-h) + env(safe-area-inset-bottom) + 24px);
+  min-height: 100vh;
+}
+
+/* ---------- Header / Hero ---------- */
+.infoapp .hero {
+  margin: 18px -16px 22px;
+  padding: 26px 22px 28px;
+  background: linear-gradient(135deg, var(--green) 0%, var(--green-d) 100%);
+  color: #fff;
+  border-radius: 0 0 28px 28px;
+  position: relative;
+  overflow: hidden;
+}
+.infoapp .hero::after {
+  content: '';
+  position: absolute;
+  right: -40px; top: -40px;
+  width: 180px; height: 180px;
+  background: radial-gradient(circle, rgba(255,255,255,.16), transparent 70%);
+}
+.infoapp .hero .eyebrow {
+  font-size: 12px; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; opacity: .85;
+}
+.infoapp .hero h1 { font-size: 26px; line-height: 1.15; margin: 8px 0 8px; font-weight: 800; letter-spacing: -.01em; }
+.infoapp .hero p { font-size: 14px; opacity: .92; max-width: 90%; }
+.infoapp .hero .stats { display: flex; gap: 18px; margin-top: 18px; }
+.infoapp .hero .stat b { font-size: 22px; font-weight: 800; display: block; }
+.infoapp .hero .stat span { font-size: 11px; opacity: .85; text-transform: uppercase; letter-spacing: .04em; }
+
+/* ---------- Section ---------- */
+.infoapp .section { margin: 26px 0 8px; }
+.infoapp .section-title { font-size: 13px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 12px; }
+
+/* ---------- Search ---------- */
+.infoapp .search-wrap { position: relative; margin-top: -28px; margin-bottom: 8px; z-index: 5; }
+.infoapp .search-input {
+  width: 100%; padding: 15px 16px 15px 46px;
+  border-radius: 16px; border: 1px solid var(--line);
+  background: var(--card); box-shadow: var(--shadow);
+  font-size: 15px; color: var(--ink);
+}
+.infoapp .search-input:focus { outline: 2px solid var(--green-glow); border-color: var(--green); }
+.infoapp .search-icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--muted); }
+
+/* ---------- Category grid ---------- */
+.infoapp .cat-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.infoapp .cat-card {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 16px; box-shadow: var(--shadow);
+  transition: transform .15s ease, box-shadow .15s ease;
+  display: flex; flex-direction: column; gap: 10px; min-height: 116px;
+}
+.infoapp .cat-card:active { transform: scale(.97); }
+.infoapp .cat-ico {
+  width: 46px; height: 46px; border-radius: 14px;
+  background: var(--green-l); display: grid; place-items: center; font-size: 24px;
+}
+.infoapp .cat-name { font-weight: 700; font-size: 15px; line-height: 1.25; }
+.infoapp .cat-count { font-size: 12px; color: var(--muted); margin-top: auto; }
+.infoapp .cat-count b { color: var(--green); font-weight: 700; }
+
+/* ---------- List item ---------- */
+.infoapp .item-list { display: flex; flex-direction: column; gap: 10px; }
+.infoapp .item-row {
+  display: flex; align-items: center; gap: 14px;
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm);
+  padding: 13px 14px; box-shadow: var(--shadow); transition: transform .12s ease;
+}
+.infoapp .item-row:active { transform: scale(.985); }
+.infoapp .item-thumb {
+  width: 42px; height: 42px; border-radius: 10px; flex-shrink: 0;
+  display: grid; place-items: center; font-size: 18px; font-weight: 700;
+  background: var(--green-l); color: var(--green-d);
+}
+.infoapp .item-thumb.video { background: #fdeaea; color: #c0392b; }
+.infoapp .item-thumb.image { background: #eef2fd; color: #3858c0; }
+.infoapp .item-main { flex: 1; min-width: 0; }
+.infoapp .item-title { font-weight: 600; font-size: 14.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.infoapp .item-meta { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.infoapp .item-chev { color: #c4cec8; flex-shrink: 0; }
+
+/* ---------- Back / page header ---------- */
+.infoapp .page-head { display: flex; align-items: center; gap: 12px; padding: 18px 0 6px; }
+.infoapp .back-btn {
+  width: 40px; height: 40px; border-radius: 12px; background: var(--card);
+  border: 1px solid var(--line); display: grid; place-items: center; color: var(--ink);
+  box-shadow: var(--shadow);
+}
+.infoapp .page-head .ph-ico { font-size: 26px; }
+.infoapp .page-head h2 { font-size: 20px; font-weight: 800; letter-spacing: -.01em; }
+.infoapp .page-head .ph-sub { font-size: 12.5px; color: var(--muted); }
+
+/* ---------- Viewer ---------- */
+.infoapp .viewer { margin-top: 12px; }
+.infoapp .viewer-frame {
+  width: 100%; height: 70vh; min-height: 420px;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: #fff; box-shadow: var(--shadow); overflow: hidden;
+}
+.infoapp .viewer-frame iframe, .infoapp .viewer-frame embed, .infoapp .viewer-frame video { width: 100%; height: 100%; border: 0; display: block; background:#000; }
+.infoapp .viewer-actions { display: flex; gap: 10px; margin-top: 14px; }
+.infoapp .btn {
+  flex: 1; padding: 14px; border-radius: 14px; font-weight: 700; font-size: 15px;
+  text-align: center; display: flex; align-items: center; justify-content: center; gap: 8px;
+}
+.infoapp .btn-primary { background: var(--green); color: #fff; box-shadow: 0 6px 16px var(--green-glow); }
+.infoapp .btn-primary:active { background: var(--green-d); }
+.infoapp .btn-ghost { background: var(--card); color: var(--ink); border: 1px solid var(--line); }
+
+.infoapp .empty {
+  background: var(--card); border: 1px dashed var(--line); border-radius: var(--radius);
+  padding: 34px 22px; text-align: center; color: var(--muted); box-shadow: var(--shadow);
+}
+.infoapp .empty .e-ico { font-size: 38px; margin-bottom: 10px; }
+.infoapp .empty b { color: var(--ink); display: block; margin-bottom: 4px; font-size: 16px; }
+
+/* ---------- Bottom nav ---------- */
+.infoapp .bottom-nav {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  height: calc(var(--nav-h) + env(safe-area-inset-bottom));
+  padding-bottom: env(safe-area-inset-bottom);
+  background: rgba(255,255,255,.92); backdrop-filter: blur(12px);
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-around; align-items: center; z-index: 50;
+}
+.infoapp .bottom-nav a {
+  flex: 1; display: flex; flex-direction: column; align-items: center; gap: 3px;
+  color: var(--muted); font-size: 11px; font-weight: 600; padding: 8px 0;
+}
+.infoapp .bottom-nav a.active { color: var(--green); }
+
+/* ---------- Install banner ---------- */
+.infoapp .install-banner {
+  position: fixed; left: 16px; right: 16px; bottom: calc(var(--nav-h) + env(safe-area-inset-bottom) + 12px);
+  max-width: 728px; margin: 0 auto;
+  background: var(--ink); color: #fff; border-radius: 16px; padding: 14px 16px;
+  display: flex; align-items: center; gap: 12px; box-shadow: var(--shadow-lg); z-index: 60;
+}
+.infoapp .install-banner .ib-txt { flex: 1; font-size: 13px; }
+.infoapp .install-banner .ib-txt b { display: block; font-size: 14px; }
+.infoapp .install-banner button.ib-go { background: var(--green); color: #fff; padding: 9px 14px; border-radius: 10px; font-weight: 700; font-size: 13px; }
+.infoapp .install-banner button.ib-x { color: rgba(255,255,255,.6); font-size: 20px; padding: 0 4px; }
+
+.infoapp .fade-in { animation: infoapp-fade .35s ease; }
+@keyframes infoapp-fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }

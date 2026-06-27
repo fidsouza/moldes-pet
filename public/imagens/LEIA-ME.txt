@@ -1,0 +1,8 @@
+Salve aqui as 4 fotos com EXATAMENTE estes nomes:
+
+1) cachorro-roupa.jpg     -> foto do cachorro de roupinha
+2) peca-pronta.jpg        -> foto da roupinha dobrada na mesa (acabamento)
+3) gato-vestido.jpg       -> foto do gato com roupinha
+4) processo-costura.jpg   -> foto das mãos costurando na máquina
+
+Depois é só abrir o index.html que as fotos aparecem na galeria.

@@ -1,56 +1,83 @@
-# Pet Ateliê — Landing page (Next.js + React)
+# Pet Ateliê — App único (landing + área de membros)
 
-Página de vendas dos 100 Moldes Profissionais de Roupas para Pets, pronta para rodar na Vercel.
+Um **único app Next.js**, um **único domínio**. A landing de vendas e o
+infoapp (área de membros / PWA) agora vivem juntos:
 
-> **Obs.:** a pasta já vem com um `node_modules/` e `.next/` gerados no ambiente de validação (Linux). Antes de rodar no seu Mac, apague essas duas pastas e rode `npm install` de novo para baixar os binários certos. No deploy pela Vercel isso não importa (elas são ignoradas pelo `.gitignore` e a Vercel instala tudo do zero).
+| URL | O que é |
+|-----|---------|
+| `seu-dominio.com.br/` | Hub (lista de produtos) |
+| `seu-dominio.com.br/pet-atelie` | **Landing page** de vendas |
+| `seu-dominio.com.br/pet-atelie/app` | **Infoapp** — biblioteca de moldes (PWA) |
+| `seu-dominio.com.br/pet-atelie/app/buscar` | Busca de moldes |
+| `seu-dominio.com.br/pet-atelie/app/bonus` | Bônus & aulas |
+| `seu-dominio.com.br/pet-atelie/app/c/[id]` | Categoria |
+| `seu-dominio.com.br/pet-atelie/app/v/[id]` | Visualizador do arquivo |
 
-## Rodar localmente
-
-```bash
-rm -rf node_modules .next   # só na primeira vez, p/ limpar o build do ambiente de validação
-npm install
-npm run dev
-```
-
-Abra http://localhost:3000
-
-## Build de produção
-
-```bash
-npm run build
-npm start
-```
-
-## Deploy na Vercel
-
-1. Suba esta pasta para um repositório no GitHub.
-2. Em https://vercel.com → **Add New → Project** → importe o repositório.
-3. A Vercel detecta Next.js automaticamente. Clique em **Deploy**. Pronto.
-
-(Alternativa por terminal: instale a CLI com `npm i -g vercel` e rode `vercel` dentro desta pasta.)
-
-## Fotos da galeria
-
-Coloque as 4 fotos em `public/imagens/` com EXATAMENTE estes nomes:
-
-- `cachorro-roupa.jpg`
-- `peca-pronta.jpg`
-- `gato-vestido.jpg`
-- `processo-costura.jpg`
-
-## Personalizar
-
-- **Link de checkout:** edite a constante `CHECKOUT_URL` no topo de `app/page.js`.
-- **Textos, preço e bônus:** todos estão em arrays no início de `app/page.js`.
-- **Cores e estilos:** em `app/globals.css` (variáveis no `:root`).
+A landing tem um link discreto no rodapé ("Já é aluno? Acessar a área de
+membros") que leva para `/pet-atelie/app`.
 
 ## Estrutura
 
 ```
 app/
-  layout.js     # <head>, fontes, metadados
-  page.js       # toda a landing page (componente React)
-  globals.css   # estilos
+  layout.js            layout raiz (html/body + fontes da landing)
+  globals.css          estilos da LANDING (globais)
+  page.js              hub multi-produto  (/)
+  pet-atelie/
+    page.js            landing de vendas   (/pet-atelie)
+    StickyCta.jsx
+    app/               INFOAPP aninhado    (/pet-atelie/app/*)
+      layout.js        layout do app (wrapper .infoapp + BottomNav + PWA)
+      infoapp.css      estilos do infoapp ISOLADOS sob .infoapp
+      page.js          início do app
+      buscar/ bonus/ c/[id]/ v/[id]/   rotas internas
+      components/      BottomNav, ItemRow
+      pwa-register.js  registra o service worker
+lib/
+  content.js           índice do conteúdo (lê data/content.json)
+  appBase.js           APP_BASE = '/pet-atelie/app' + helper href()
+data/content.json      categorias, itens e URLs dos arquivos no Vercel Blob
 public/
-  imagens/      # fotos da galeria
+  icons/               ícones do PWA
+  pet-atelie/app/      manifest.webmanifest + sw.js (escopo /pet-atelie/app)
+scripts/upload-to-blob.mjs   sobe PDFs/vídeos e preenche as URLs
 ```
+
+### Por que o CSS não conflita
+
+A landing e o infoapp tinham `globals.css` próprios com classes de mesmo nome
+(`.btn`, `.hero`, `.cat-grid`…) e variáveis em conflito. Solução:
+
+- `app/globals.css` (landing) continua **global**.
+- `app/pet-atelie/app/infoapp.css` tem **todos os seletores prefixados com
+  `.infoapp`**, e o infoapp inteiro é renderizado dentro de
+  `<div className="infoapp">`. Assim os estilos do app só valem dentro dele.
+
+### Mudar o slug do produto
+
+Se um dia o produto não for mais `pet-atelie`, ajuste em **dois lugares**:
+1. `lib/appBase.js` → `APP_BASE`
+2. nomes das pastas `app/pet-atelie/` e `public/pet-atelie/`
+3. `start_url`/`scope` em `public/pet-atelie/app/manifest.webmanifest` e
+   `BASE` em `public/pet-atelie/app/sw.js`, e o caminho em `pwa-register.js`.
+
+## Rodar localmente
+
+```bash
+rm -rf node_modules .next   # só na 1ª vez, p/ limpar build de outro ambiente
+npm install
+npm run dev                 # http://localhost:3000
+```
+
+## Publicar os arquivos (PDFs/vídeos) no Vercel Blob
+
+```bash
+# 1. coloque a pasta "100 MOLDES PETS 2" em ./content-source/
+# 2. export BLOB_READ_WRITE_TOKEN="vercel_blob_rw_xxx"
+npm run upload
+```
+
+## Deploy (Vercel)
+
+Suba o repositório e importe na Vercel — `npm run build` e pronto. As pastas
+`node_modules/` e `.next/` são ignoradas pelo `.gitignore`.
