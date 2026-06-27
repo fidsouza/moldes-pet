@@ -45,6 +45,18 @@ section{padding:74px 0}
 .btn .sub{display:block;font-weight:500;font-size:.74rem;opacity:.9;letter-spacing:.02em}
 .btn-line{display:flex;flex-direction:column;line-height:1.15}
 
+/* HUB (home multi-produto) */
+.hub{padding:90px 0;min-height:80vh}
+.hub h1{font-size:clamp(2rem,4vw,3rem);margin-bottom:8px}
+.hub-sub{color:var(--ink-soft);margin-bottom:38px}
+.hub-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.hub-card{display:block;background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px;text-decoration:none;color:var(--ink);box-shadow:var(--shadow);transition:transform .14s,box-shadow .14s}
+.hub-card:hover{transform:translateY(-4px)}
+.hub-price{display:inline-block;font-weight:800;font-size:.8rem;color:var(--green);background:#e9f7ef;padding:5px 11px;border-radius:100px;margin-bottom:12px}
+.hub-card h2{font-size:1.25rem;margin-bottom:8px}
+.hub-card p{color:var(--ink-soft);font-size:.95rem;margin-bottom:16px}
+.hub-cta{font-weight:800;color:var(--terra-dark)}
+
 /* HERO */
 .hero{
   position:relative;

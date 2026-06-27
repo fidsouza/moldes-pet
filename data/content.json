@@ -1,0 +1,1900 @@
+{
+  "product": {
+    "title": "100 Moldes Profissionais de Roupas para Pets 2",
+    "short": "100 Moldes Pets",
+    "tagline": "Sua biblioteca completa de moldes para costurar, vender e lucrar.",
+    "moldeCount": 185,
+    "totalFiles": 191
+  },
+  "categories": [
+    {
+      "id": "1-video-aulas",
+      "name": "Vídeo Aulas",
+      "icon": "🎬",
+      "type": "video",
+      "order": 1,
+      "count": 2,
+      "items": [
+        {
+          "id": "1-video-aulas-video02-mp4",
+          "title": "Video02",
+          "file": "1-VIDEO AULAS/video02.mp4",
+          "ext": "mp4",
+          "kind": "video",
+          "sizeBytes": 45304813,
+          "blobUrl": null
+        },
+        {
+          "id": "1-video-aulas-video03-mp4",
+          "title": "Video03",
+          "file": "1-VIDEO AULAS/video03.mp4",
+          "ext": "mp4",
+          "kind": "video",
+          "sizeBytes": 89387964,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "acessorios-e-bolsas",
+      "name": "Acessórios e Bolsas",
+      "icon": "🎀",
+      "type": "moldes",
+      "order": 10,
+      "count": 30,
+      "items": [
+        {
+          "id": "acessorios-e-bolsas-bandana-colarinho-pdf",
+          "title": "Bandana colarinho",
+          "file": "Acessórios e Bolsas/bandana colarinho.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 2024193,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-bandana-e-bone-pdf",
+          "title": "Bandana e bone",
+          "file": "Acessórios e Bolsas/Bandana e bone.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 160193,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-bandana-graciosa-pdf",
+          "title": "Bandana graciosa",
+          "file": "Acessórios e Bolsas/bandana graciosa. Pdf",
+          "ext": " pdf",
+          "kind": "pdf",
+          "sizeBytes": 1858392,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-bandana-jeans-pdf",
+          "title": "Bandana jeans",
+          "file": "Acessórios e Bolsas/bandana jeans.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 545415,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-bandana-lenco-pdf",
+          "title": "Bandana lenço",
+          "file": "Acessórios e Bolsas/bandana lenço .Pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1252271,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-bandana-polar-pdf",
+          "title": "Bandana polar",
+          "file": "Acessórios e Bolsas/bandana polar. Pdf",
+          "ext": " pdf",
+          "kind": "pdf",
+          "sizeBytes": 1565667,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-boina-e-capa-pdf",
+          "title": "Boina e capa",
+          "file": "Acessórios e Bolsas/boina e capa.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 367142,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-bolsa-canguru-pdf",
+          "title": "Bolsa canguru",
+          "file": "Acessórios e Bolsas/bolsa canguru.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1318669,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-bolsa-pet-pdf",
+          "title": "Bolsa pet",
+          "file": "Acessórios e Bolsas/bolsa pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 5233763,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-bolsa-pet-1-pdf",
+          "title": "Bolsa pet",
+          "file": "Acessórios e Bolsas/bolsa pet(1).pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 723867,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-bolsa-transportadora-pdf",
+          "title": "Bolsa transportadora",
+          "file": "Acessórios e Bolsas/Bolsa transportadora.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 819680,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-bone-e-gravata-pdf",
+          "title": "Boné e gravata",
+          "file": "Acessórios e Bolsas/boné e gravata.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1139471,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-bone-pet-pdf",
+          "title": "Boné pet",
+          "file": "Acessórios e Bolsas/boné pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1041729,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-bone-pet-1-pdf",
+          "title": "Boné pet",
+          "file": "Acessórios e Bolsas/Boné pet(1).pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 603195,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-botinhas-pdf",
+          "title": "Botinhas",
+          "file": "Acessórios e Bolsas/Botinhas.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 3174174,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-chapeu-pet-pdf",
+          "title": "Chapéu pet",
+          "file": "Acessórios e Bolsas/chapéu pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 401901,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-colar-fraque-pdf",
+          "title": "Colar fraque",
+          "file": "Acessórios e Bolsas/Colar fraque.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 3167547,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-colarinho-pet-femea-pdf",
+          "title": "Colarinho pet femea",
+          "file": "Acessórios e Bolsas/colarinho pet femea.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 192791,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-coleira-pet-pdf",
+          "title": "Coleira pet",
+          "file": "Acessórios e Bolsas/coleira pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 34149,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-colera-peitoral-pet-pdf",
+          "title": "Colera peitoral pet",
+          "file": "Acessórios e Bolsas/colera peitoral pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1254490,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-frente-fraque-pdf",
+          "title": "Frente fraque",
+          "file": "Acessórios e Bolsas/Frente fraque.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 3141110,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-gorro-pet-pdf",
+          "title": "Gorro pet",
+          "file": "Acessórios e Bolsas/Gorro pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 250999,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-gravata-pdf",
+          "title": "Gravata",
+          "file": "Acessórios e Bolsas/Gravata.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 2500324,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-gravata-1-pdf",
+          "title": "Gravata",
+          "file": "Acessórios e Bolsas/Gravata(1).pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 2764275,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-gravatinha-pdf",
+          "title": "Gravatinha",
+          "file": "Acessórios e Bolsas/gravatinha.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 3143691,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-lacos-pdf",
+          "title": "Laços",
+          "file": "Acessórios e Bolsas/laços .pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1705215,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-mochila-pet-pdf",
+          "title": "Mochila pet",
+          "file": "Acessórios e Bolsas/mochila pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 230928,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-polainas-e-cachecol-pdf",
+          "title": "Polainas e cachecol",
+          "file": "Acessórios e Bolsas/Polainas e cachecol.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 3712794,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-sandalia-pet-pdf",
+          "title": "Sandália pet",
+          "file": "Acessórios e Bolsas/Sandália pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 365515,
+          "blobUrl": null
+        },
+        {
+          "id": "acessorios-e-bolsas-smoking-pet-pdf",
+          "title": "Smoking pet",
+          "file": "Acessórios e Bolsas/smoking pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 485399,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "banho",
+      "name": "Roupas de Banho",
+      "icon": "🛁",
+      "type": "moldes",
+      "order": 11,
+      "count": 3,
+      "items": [
+        {
+          "id": "banho-maio-pet-pdf",
+          "title": "Maio pet",
+          "file": "Banho/Maio pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1300399,
+          "blobUrl": null
+        },
+        {
+          "id": "banho-roupao-de-banho-ana-pdf",
+          "title": "Roupão de banho Ana",
+          "file": "Banho/roupão de banho Ana.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1840965,
+          "blobUrl": null
+        },
+        {
+          "id": "banho-roupao-pdf",
+          "title": "Roupão",
+          "file": "Banho/Roupão.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 8163253,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "blusas-e-camisas",
+      "name": "Blusas e Camisas",
+      "icon": "👕",
+      "type": "moldes",
+      "order": 12,
+      "count": 43,
+      "items": [
+        {
+          "id": "blusas-e-camisas-blusa-basica-salsichinha-s-pdf-versao-1-pdf",
+          "title": "Blusa básica Salsichinha S pdf",
+          "file": "Blusas e camisas/blusa básica Salsichinha S.pdf · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 29514,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-blusa-com-capuz-pet-pdf",
+          "title": "Blusa com capuz pet",
+          "file": "Blusas e camisas/blusa com capuz pet .pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 836308,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-blusa-com-capuz-pet-pdf",
+          "title": "Blusa com capuz pet",
+          "file": "Blusas e camisas/blusa com capuz pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 310132,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-blusa-com-capuz-pdf",
+          "title": "Blusa com capuz",
+          "file": "Blusas e camisas/Blusa com capuz.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 8682926,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-blusa-com-manga-e-capuz-pdf",
+          "title": "Blusa com manga e capuz",
+          "file": "Blusas e camisas/Blusa com manga e capuz .pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 213149,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-blusa-de-time-pdf",
+          "title": "Blusa de time",
+          "file": "Blusas e camisas/Blusa de time.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1959621,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-blusa-raglan-capuz-pdf",
+          "title": "Blusa raglan capuz",
+          "file": "Blusas e camisas/Blusa raglan capuz.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1827294,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-blusa-raglan-pinsher-pdf",
+          "title": "Blusa raglan pinsher",
+          "file": "Blusas e camisas/Blusa raglan pinsher.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 489821,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-blusa-sem-manga-pdf",
+          "title": "Blusa sem manga",
+          "file": "Blusas e camisas/Blusa sem manga.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 12646977,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-body-pet-fofo-1-pdf",
+          "title": "Body pet fofo-1",
+          "file": "Blusas e camisas/body pet fofo-1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 819766,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camisa-com-gola-pdf",
+          "title": "Camisa com gola",
+          "file": "Blusas e camisas/Camisa com gola.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 13390367,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camisa-escoces-pdf",
+          "title": "Camisa escocês",
+          "file": "Blusas e camisas/Camisa escocês.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 7249418,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camisa-havaiana-pdf",
+          "title": "Camisa havaiana",
+          "file": "Blusas e camisas/Camisa havaiana.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 886123,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camisa-sem-mangas-pdf",
+          "title": "Camisa sem mangas",
+          "file": "Blusas e camisas/Camisa sem mangas.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 11834215,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camisa-simples-gg-pdf",
+          "title": "Camisa simples gg",
+          "file": "Blusas e camisas/Camisa simples gg. pdf",
+          "ext": " pdf",
+          "kind": "pdf",
+          "sizeBytes": 817237,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camisa-simples-p-a-g-pdf-versao-1-pdf",
+          "title": "Camisa simples p a g pdf",
+          "file": "Blusas e camisas/Camisa simples p a g.pdf · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1368174,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camisa-simples-pet-pet-tamnho-g-pdf",
+          "title": "Pet tamnho G",
+          "file": "Blusas e camisas/Camisa simples pet/Pet tamnho G.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 508198,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camisa-simples-pet-pet-tamnho-gg-pdf",
+          "title": "Pet tamnho GG",
+          "file": "Blusas e camisas/Camisa simples pet/Pet tamnho GG.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 404213,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camisa-simples-pet-pet-tamnho-m-pdf",
+          "title": "Pet tamnho M",
+          "file": "Blusas e camisas/Camisa simples pet/Pet tamnho M.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 449747,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camisa-simples-pet-pet-tamnho-p-pdf",
+          "title": "Pet tamnho P",
+          "file": "Blusas e camisas/Camisa simples pet/Pet tamnho P .pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 447920,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camisa-social-pdf",
+          "title": "Camisa social",
+          "file": "Blusas e camisas/Camisa social .pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 602626,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camisa-hawaiana-pet-pdf",
+          "title": "Camisa-Hawaiana pet",
+          "file": "Blusas e camisas/Camisa-Hawaiana pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1533540,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camisa-pdf",
+          "title": "Camisa",
+          "file": "Blusas e camisas/camisa.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 2132012,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camiseta-natal-pdf",
+          "title": "Camiseta natal",
+          "file": "Blusas e camisas/Camiseta natal.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 623648,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camiseta-raglan-m-pdf",
+          "title": "Camiseta raglan m",
+          "file": "Blusas e camisas/Camiseta raglan m.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 98253,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camiseta-camisa-l-pdf",
+          "title": "Camisa L",
+          "file": "Blusas e camisas/Camiseta/camisa L.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 503288,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camiseta-camisa-m-pdf",
+          "title": "Camisa M",
+          "file": "Blusas e camisas/Camiseta/camisa M.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 484210,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camiseta-camisa-s-pdf",
+          "title": "Camisa S",
+          "file": "Blusas e camisas/Camiseta/camisa S.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 305640,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camiseta-camisa-xl-pdf",
+          "title": "Camisa XL",
+          "file": "Blusas e camisas/Camiseta/camisa XL.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 707690,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camiseta-camisa-xs-pdf",
+          "title": "Camisa XS",
+          "file": "Blusas e camisas/Camiseta/camisa XS.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 272036,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-camiseta-camisa-xxl-pdf",
+          "title": "Camisa XXL",
+          "file": "Blusas e camisas/Camiseta/camisa XXL.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 797872,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-colete-com-babados-pdf",
+          "title": "Colete com babados",
+          "file": "Blusas e camisas/Colete com babados.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 10991323,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-colete-com-polainas-pdf",
+          "title": "Colete com polainas",
+          "file": "Blusas e camisas/Colete com polainas.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 11840510,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-colete-para-coleira-pdf",
+          "title": "Colete para coleira",
+          "file": "Blusas e camisas/Colete para coleira.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1536852,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-colete-pet-simples-pdf",
+          "title": "Colete pet simples",
+          "file": "Blusas e camisas/Colete pet simples.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1477298,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-colete-pug-pdf",
+          "title": "Colete pug",
+          "file": "Blusas e camisas/Colete pug.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1295566,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-colete-pdf",
+          "title": "Colete",
+          "file": "Blusas e camisas/Colete.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 8738112,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-colete-1-pdf",
+          "title": "Colete",
+          "file": "Blusas e camisas/Colete(1).pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 179236,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-coletinho-jeans-pet-pdf",
+          "title": "Coletinho jeans pet",
+          "file": "Blusas e camisas/coletinho jeans pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 3647727,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-moletom-moletom-para-caes-g-pdf-versao-1-pdf",
+          "title": "Moletom para Cães G pdf",
+          "file": "Blusas e camisas/Moletom/Moletom para Cães G.pdf · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1236189,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-moletom-moletom-para-caes-gg-pdf-versao-1-pdf",
+          "title": "Moletom para Cães GG pdf",
+          "file": "Blusas e camisas/Moletom/Moletom para Cães GG.pdf · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1107607,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-moletom-moletom-para-caes-m-pdf-versao-1-pdf",
+          "title": "Moletom para Cães M pdf",
+          "file": "Blusas e camisas/Moletom/Moletom para Cães M.pdf · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 702810,
+          "blobUrl": null
+        },
+        {
+          "id": "blusas-e-camisas-moletom-moletom-para-caes-p-pdf-versao-1-pdf",
+          "title": "Moletom para Cães P pdf",
+          "file": "Blusas e camisas/Moletom/Moletom para Cães P.pdf · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 694118,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "calcas-e-saias",
+      "name": "Calças e Saias",
+      "icon": "👖",
+      "type": "moldes",
+      "order": 13,
+      "count": 4,
+      "items": [
+        {
+          "id": "calcas-e-saias-calca-pdf",
+          "title": "Calça",
+          "file": "Calças e saias/calça .pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 659939,
+          "blobUrl": null
+        },
+        {
+          "id": "calcas-e-saias-calca-pdf",
+          "title": "Calça",
+          "file": "Calças e saias/calça.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 932952,
+          "blobUrl": null
+        },
+        {
+          "id": "calcas-e-saias-saia-gode-pet-pdf",
+          "title": "Saia gode pet",
+          "file": "Calças e saias/saia gode pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 2054399,
+          "blobUrl": null
+        },
+        {
+          "id": "calcas-e-saias-saia-jeans-pet-pdf",
+          "title": "Saia jeans pet",
+          "file": "Calças e saias/Saia jeans pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 135922,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "calcinhas-e-cuecas",
+      "name": "Calcinhas e Cuecas",
+      "icon": "🩲",
+      "type": "moldes",
+      "order": 14,
+      "count": 6,
+      "items": [
+        {
+          "id": "calcinhas-e-cuecas-calcinha-bunda-rica-pet-pdf",
+          "title": "Calcinha bunda rica pet",
+          "file": "calcinhas e cuecas/calcinha bunda rica pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1185192,
+          "blobUrl": null
+        },
+        {
+          "id": "calcinhas-e-cuecas-calcinha-higienica-com-cos-pdf",
+          "title": "Calcinha higienica com cos",
+          "file": "calcinhas e cuecas/calcinha higienica com cos.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 224735,
+          "blobUrl": null
+        },
+        {
+          "id": "calcinhas-e-cuecas-calcinha-ou-cueca-pdf",
+          "title": "Calcinha ou cueca",
+          "file": "calcinhas e cuecas/Calcinha ou cueca.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 3704416,
+          "blobUrl": null
+        },
+        {
+          "id": "calcinhas-e-cuecas-calcinha-pet-pdf",
+          "title": "Calcinha pet",
+          "file": "calcinhas e cuecas/calcinha pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 696143,
+          "blobUrl": null
+        },
+        {
+          "id": "calcinhas-e-cuecas-cueca-boxes-pet-pdf",
+          "title": "Cueca boxes pet",
+          "file": "calcinhas e cuecas/cueca boxes pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 710718,
+          "blobUrl": null
+        },
+        {
+          "id": "calcinhas-e-cuecas-cueca-pet-higienica-pdf",
+          "title": "Cueca pet higiênica",
+          "file": "calcinhas e cuecas/cueca pet higiênica.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 743407,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "camas-e-tapetes",
+      "name": "Camas e Tapetes",
+      "icon": "🛏️",
+      "type": "moldes",
+      "order": 15,
+      "count": 16,
+      "items": [
+        {
+          "id": "camas-e-tapetes-cama-para-gato-pdf-versao-1-pdf",
+          "title": "Cama para gato pdf",
+          "file": "Camas e tapetes/cama para gato.pdf · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1565086,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-cama-para-gatos-pdf",
+          "title": "Cama para gatos",
+          "file": "Camas e tapetes/Cama para gatos.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 849009,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-cama-pet-pdf-versao-1-pdf",
+          "title": "Cama pet pdf",
+          "file": "Camas e tapetes/Cama pet.pdf · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1378591,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-cama-quadrada-jpg",
+          "title": "Cama quadrada",
+          "file": "Camas e tapetes/Cama quadrada.jpg",
+          "ext": "jpg",
+          "kind": "image",
+          "sizeBytes": 36453,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-cama-quadrada-1-jpg",
+          "title": "Cama quadrada",
+          "file": "Camas e tapetes/Cama quadrada(1).jpg",
+          "ext": "jpg",
+          "kind": "image",
+          "sizeBytes": 35214,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-cama-redonda-jpg",
+          "title": "Cama redonda",
+          "file": "Camas e tapetes/Cama redonda.jpg",
+          "ext": "jpg",
+          "kind": "image",
+          "sizeBytes": 54382,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-cama-redonda-pdf",
+          "title": "Cama redonda",
+          "file": "Camas e tapetes/Cama redonda.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1191309,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-cama-simples-pdf",
+          "title": "Cama simples",
+          "file": "Camas e tapetes/Cama simples.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 7959921,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-cama-suspensa-gatos-pdf",
+          "title": "Cama suspensa gatos",
+          "file": "Camas e tapetes/Cama suspensa gatos.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 559889,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-cama-sofa-pdf-filename-utf-8-cama-20sofa-pdf",
+          "title": "Cama sofa pdf",
+          "file": "Camas e tapetes/Cama_sofa.pdf_filename_= UTF-8_Cama_20sofa.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 974862,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-iglu-instrucoes-pdf",
+          "title": "Iglu instruções",
+          "file": "Camas e tapetes/iglu instruções .pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1631055,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-iglu-pdf-versao-1-pdf",
+          "title": "Iglu pdf",
+          "file": "Camas e tapetes/iglu.pdf · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 378152,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-medidas-cama-pet-pdf",
+          "title": "Medidas cama pet",
+          "file": "Camas e tapetes/Medidas cama pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 24135,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-molde-tapete-pet-pdf",
+          "title": "Molde tapete pet",
+          "file": "Camas e tapetes/molde tapete pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 2361865,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-ninho-pdf",
+          "title": "Ninho",
+          "file": "Camas e tapetes/ninho.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 4425288,
+          "blobUrl": null
+        },
+        {
+          "id": "camas-e-tapetes-sofa-pet-pdf",
+          "title": "Sofá pet",
+          "file": "Camas e tapetes/sofá pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 974862,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "capas",
+      "name": "Capas",
+      "icon": "🧥",
+      "type": "moldes",
+      "order": 16,
+      "count": 6,
+      "items": [
+        {
+          "id": "capas-capa-com-forro-impermeavel-pdf",
+          "title": "Capa com forro impermeável",
+          "file": "Capas/Capa com forro impermeável.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1530499,
+          "blobUrl": null
+        },
+        {
+          "id": "capas-capa-de-chuva-pdf",
+          "title": "Capa de chuva",
+          "file": "Capas/Capa de chuva.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 430996,
+          "blobUrl": null
+        },
+        {
+          "id": "capas-capa-francesa-pdf",
+          "title": "Capa francesa",
+          "file": "Capas/Capa francesa.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 3602634,
+          "blobUrl": null
+        },
+        {
+          "id": "capas-capa-impermeavel-2-pdf",
+          "title": "Capa impermeável 2",
+          "file": "Capas/Capa impermeável 2.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1131281,
+          "blobUrl": null
+        },
+        {
+          "id": "capas-capa-impermeavel-pdf",
+          "title": "Capa impermeável",
+          "file": "Capas/Capa impermeável.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 6944055,
+          "blobUrl": null
+        },
+        {
+          "id": "capas-capa-pet-pdf",
+          "title": "Capa pet",
+          "file": "Capas/capa pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 303701,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "casacos",
+      "name": "Casacos",
+      "icon": "🧥",
+      "type": "moldes",
+      "order": 17,
+      "count": 9,
+      "items": [
+        {
+          "id": "casacos-casaco-com-aplique-de-rosas-pdf",
+          "title": "Casaco com aplique de rosas",
+          "file": "Casacos/Casaco com aplique de rosas.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 10717951,
+          "blobUrl": null
+        },
+        {
+          "id": "casacos-casaco-com-capuz-pdf",
+          "title": "Casaco com capuz",
+          "file": "Casacos/Casaco com capuz.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1312743,
+          "blobUrl": null
+        },
+        {
+          "id": "casacos-casaco-com-laco-pdf",
+          "title": "Casaco com laço",
+          "file": "Casacos/Casaco com laço.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 10302175,
+          "blobUrl": null
+        },
+        {
+          "id": "casacos-casaco-frio-pdf-versao-1-pdf",
+          "title": "Casaco frio pdf",
+          "file": "Casacos/Casaco frio.pdf · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 659210,
+          "blobUrl": null
+        },
+        {
+          "id": "casacos-casaco-oriental-pdf",
+          "title": "Casaco oriental",
+          "file": "Casacos/Casaco oriental.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 11951765,
+          "blobUrl": null
+        },
+        {
+          "id": "casacos-casaco-peludinhos-pdf",
+          "title": "Casaco peludinhos",
+          "file": "Casacos/Casaco peludinhos.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 10225036,
+          "blobUrl": null
+        },
+        {
+          "id": "casacos-casaco-sem-mangas-pdf",
+          "title": "Casaco sem mangas",
+          "file": "Casacos/Casaco sem mangas.PDF",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 769937,
+          "blobUrl": null
+        },
+        {
+          "id": "casacos-casaco-pdf",
+          "title": "Casaco",
+          "file": "Casacos/Casaco.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 652939,
+          "blobUrl": null
+        },
+        {
+          "id": "casacos-jaqueta-com-pompom-pdf",
+          "title": "Jaqueta com pompom",
+          "file": "Casacos/Jaqueta com pompom.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 10037214,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "conjuntos-e-macacao",
+      "name": "Conjuntos e Macacões",
+      "icon": "🩱",
+      "type": "moldes",
+      "order": 18,
+      "count": 14,
+      "items": [
+        {
+          "id": "conjuntos-e-macacao-conjunto-adidas-moda-pet-pdf",
+          "title": "Conjunto adidas moda pet",
+          "file": "Conjuntos e macacão/conjunto adidas moda pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 191361,
+          "blobUrl": null
+        },
+        {
+          "id": "conjuntos-e-macacao-conjunto-pdf",
+          "title": "Conjunto",
+          "file": "Conjuntos e macacão/Conjunto.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 12463212,
+          "blobUrl": null
+        },
+        {
+          "id": "conjuntos-e-macacao-jardineira-pet-pdf",
+          "title": "Jardineira pet",
+          "file": "Conjuntos e macacão/Jardineira pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1480040,
+          "blobUrl": null
+        },
+        {
+          "id": "conjuntos-e-macacao-jardineira-pinscher-pdf",
+          "title": "Jardineira pinscher",
+          "file": "Conjuntos e macacão/jardineira pinscher.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1420887,
+          "blobUrl": null
+        },
+        {
+          "id": "conjuntos-e-macacao-macacao-minnie-g-pdf",
+          "title": "Macacão minnie G",
+          "file": "Conjuntos e macacão/Macacão minnie G.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1441961,
+          "blobUrl": null
+        },
+        {
+          "id": "conjuntos-e-macacao-macacao-pet-rapido-1-pdf",
+          "title": "Macacao pet rápido-1",
+          "file": "Conjuntos e macacão/macacao pet rápido-1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1538898,
+          "blobUrl": null
+        },
+        {
+          "id": "conjuntos-e-macacao-macacao-pet-pdf-versao-1-pdf",
+          "title": "Macacão pet PDF",
+          "file": "Conjuntos e macacão/Macacão pet.PDF · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 173819,
+          "blobUrl": null
+        },
+        {
+          "id": "conjuntos-e-macacao-macacao-racas-grandes-pdf",
+          "title": "Macacão raças grandes",
+          "file": "Conjuntos e macacão/Macacão raças grandes.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 458031,
+          "blobUrl": null
+        },
+        {
+          "id": "conjuntos-e-macacao-macacao-raglan-pdf",
+          "title": "Macacão raglan",
+          "file": "Conjuntos e macacão/Macacão raglan.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 2143025,
+          "blobUrl": null
+        },
+        {
+          "id": "conjuntos-e-macacao-macacao-xg-pdf",
+          "title": "Macacão xg",
+          "file": "Conjuntos e macacão/Macacão xg.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 2537577,
+          "blobUrl": null
+        },
+        {
+          "id": "conjuntos-e-macacao-macacao-pdf",
+          "title": "Macacão",
+          "file": "Conjuntos e macacão/Macacão.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 173819,
+          "blobUrl": null
+        },
+        {
+          "id": "conjuntos-e-macacao-pijama-com-capuz-pdf",
+          "title": "Pijama com capuz",
+          "file": "Conjuntos e macacão/Pijama com capuz_.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 80671,
+          "blobUrl": null
+        },
+        {
+          "id": "conjuntos-e-macacao-pijama-pdf",
+          "title": "Pijama",
+          "file": "Conjuntos e macacão/Pijama.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1203104,
+          "blobUrl": null
+        },
+        {
+          "id": "conjuntos-e-macacao-pijama-pdf-versao-1-pdf",
+          "title": "Pijama pdf",
+          "file": "Conjuntos e macacão/pijama.pdf · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 211004,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "gatos",
+      "name": "Roupas para Gatos",
+      "icon": "🐱",
+      "type": "moldes",
+      "order": 19,
+      "count": 3,
+      "items": [
+        {
+          "id": "gatos-blusa-4951861997255895454-121-jpg",
+          "title": "Molde",
+          "file": "Gatos/Blusa/-4951861997255895454_121.jpg",
+          "ext": "jpg",
+          "kind": "image",
+          "sizeBytes": 100774,
+          "blobUrl": null
+        },
+        {
+          "id": "gatos-blusa-blusa-gato-pdf",
+          "title": "Blusa gato",
+          "file": "Gatos/Blusa/Blusa gato.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 2125178,
+          "blobUrl": null
+        },
+        {
+          "id": "gatos-roupa-cirurgica-para-gato-pdf",
+          "title": "Roupa cirúrgica para gato",
+          "file": "Gatos/roupa cirúrgica para gato.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 179666,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "manequim",
+      "name": "Manequins Pet",
+      "icon": "🧍",
+      "type": "moldes",
+      "order": 20,
+      "count": 7,
+      "items": [
+        {
+          "id": "manequim-manequim-pet-pdf",
+          "title": "Manequim pet",
+          "file": "Manequim/manequim pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 2331408,
+          "blobUrl": null
+        },
+        {
+          "id": "manequim-manequim-pet-1-pdf",
+          "title": "Manequim Pet",
+          "file": "Manequim/Manequim Pet(1).pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 424318,
+          "blobUrl": null
+        },
+        {
+          "id": "manequim-manequim-t1-pdf-pdf",
+          "title": "Manequim T1",
+          "file": "Manequim/Manequim T1.pdf.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 667792,
+          "blobUrl": null
+        },
+        {
+          "id": "manequim-manequim-t2-pdf-pdf",
+          "title": "Manequim T2",
+          "file": "Manequim/Manequim T2.pdf.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1474911,
+          "blobUrl": null
+        },
+        {
+          "id": "manequim-manequim-t3-pdf-pdf",
+          "title": "Manequim T3",
+          "file": "Manequim/Manequim T3.pdf.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1582007,
+          "blobUrl": null
+        },
+        {
+          "id": "manequim-manequim-t4-pdf-pdf",
+          "title": "Manequim T4",
+          "file": "Manequim/Manequim T4.pdf.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1650431,
+          "blobUrl": null
+        },
+        {
+          "id": "manequim-manequim-t5-pdf-pdf",
+          "title": "Manequim T5",
+          "file": "Manequim/Manequim T5.pdf.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1739581,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "porquinho-da-india",
+      "name": "Porquinho-da-Índia",
+      "icon": "🐹",
+      "type": "moldes",
+      "order": 21,
+      "count": 2,
+      "items": [
+        {
+          "id": "porquinho-da-india-blusa-capuz-porquinho-da-india-pdf",
+          "title": "Blusa capuz porquinho da india",
+          "file": "Porquinho da india/blusa capuz porquinho da india.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 349503,
+          "blobUrl": null
+        },
+        {
+          "id": "porquinho-da-india-vestido-capuz-porquinha-da-india-pdf",
+          "title": "Vestido capuz porquinha da india",
+          "file": "Porquinho da india/vestido capuz porquinha da india.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 819408,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "roupa-cirurgica",
+      "name": "Roupas Cirúrgicas",
+      "icon": "🩹",
+      "type": "moldes",
+      "order": 22,
+      "count": 12,
+      "items": [
+        {
+          "id": "roupa-cirurgica-roupa-cirurgica-t-0-pdf",
+          "title": "Roupa cirurgica T-0",
+          "file": "Roupa cirurgica/roupa cirurgica  T-0.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 497715,
+          "blobUrl": null
+        },
+        {
+          "id": "roupa-cirurgica-roupa-cirurgica-t-1-pdf",
+          "title": "Roupa cirurgica T-1",
+          "file": "Roupa cirurgica/roupa cirurgica  T-1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 497761,
+          "blobUrl": null
+        },
+        {
+          "id": "roupa-cirurgica-roupa-cirurgica-t-10-pdf",
+          "title": "Roupa cirurgica T-10",
+          "file": "Roupa cirurgica/roupa cirurgica  T-10.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 496964,
+          "blobUrl": null
+        },
+        {
+          "id": "roupa-cirurgica-roupa-cirurgica-t-2-pdf",
+          "title": "Roupa cirurgica T-2",
+          "file": "Roupa cirurgica/roupa cirurgica  T-2.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 497784,
+          "blobUrl": null
+        },
+        {
+          "id": "roupa-cirurgica-roupa-cirurgica-t-3-pdf",
+          "title": "Roupa cirurgica T-3",
+          "file": "Roupa cirurgica/roupa cirurgica  T-3.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 497400,
+          "blobUrl": null
+        },
+        {
+          "id": "roupa-cirurgica-roupa-cirurgica-t-4-pdf",
+          "title": "Roupa cirurgica T-4",
+          "file": "Roupa cirurgica/roupa cirurgica  T-4.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 496866,
+          "blobUrl": null
+        },
+        {
+          "id": "roupa-cirurgica-roupa-cirurgica-t-5-pdf",
+          "title": "Roupa cirurgica T-5",
+          "file": "Roupa cirurgica/roupa cirurgica  T-5.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 496882,
+          "blobUrl": null
+        },
+        {
+          "id": "roupa-cirurgica-roupa-cirurgica-t-6-pdf",
+          "title": "Roupa cirurgica T-6",
+          "file": "Roupa cirurgica/roupa cirurgica  T-6.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 496889,
+          "blobUrl": null
+        },
+        {
+          "id": "roupa-cirurgica-roupa-cirurgica-t-7-pdf",
+          "title": "Roupa cirurgica T-7",
+          "file": "Roupa cirurgica/roupa cirurgica  T-7.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 496872,
+          "blobUrl": null
+        },
+        {
+          "id": "roupa-cirurgica-roupa-cirurgica-t-8-pdf",
+          "title": "Roupa cirurgica T-8",
+          "file": "Roupa cirurgica/roupa cirurgica  T-8.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 496889,
+          "blobUrl": null
+        },
+        {
+          "id": "roupa-cirurgica-roupa-cirurgica-t-9-pdf",
+          "title": "Roupa cirurgica T-9",
+          "file": "Roupa cirurgica/roupa cirurgica  T-9.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 496904,
+          "blobUrl": null
+        },
+        {
+          "id": "roupa-cirurgica-roupa-cirurgica-a4-roupa-cirurgica-pp-a-12-pdf",
+          "title": "Roupa cirurgica pp a 12",
+          "file": "Roupa cirurgica/Roupa cirurgica A4/roupa cirurgica pp a 12.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 3343416,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "vestidos",
+      "name": "Vestidos",
+      "icon": "👗",
+      "type": "moldes",
+      "order": 23,
+      "count": 30,
+      "items": [
+        {
+          "id": "vestidos-vestido-alice-pdf",
+          "title": "Vestido alice",
+          "file": "Vestidos/Vestido alice.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 704183,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-capa-pet-pdf",
+          "title": "Vestido capa pet",
+          "file": "Vestidos/vestido capa pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 674246,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-chanel-pdf",
+          "title": "Vestido chanel",
+          "file": "Vestidos/Vestido chanel.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 9255457,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-com-manga-g-pdf",
+          "title": "Vestido com manga g",
+          "file": "Vestidos/Vestido com manga g.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 584391,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-com-manga-m-pdf",
+          "title": "Vestido com manga M",
+          "file": "Vestidos/Vestido com manga M.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 575841,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-com-manga-p-pdf",
+          "title": "Vestido com manga p",
+          "file": "Vestidos/Vestido com manga p.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 581847,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-com-manga-pp-pdf",
+          "title": "Vestido com manga pp",
+          "file": "Vestidos/Vestido com manga pp.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 581170,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-coquita-pet-pdf",
+          "title": "Vestido coquita pet",
+          "file": "Vestidos/vestido coquita pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 7135790,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-escoces-pdf",
+          "title": "Vestido escocês",
+          "file": "Vestidos/Vestido escocês.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 8370830,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-express-pdf",
+          "title": "Vestido express",
+          "file": "Vestidos/Vestido express.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 4249796,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-festa-pinsher-pdf",
+          "title": "Vestido festa pinsher",
+          "file": "Vestidos/Vestido festa pinsher.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1815660,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-flopi-pet-pdf",
+          "title": "Vestido flopi pet",
+          "file": "Vestidos/vestido flopi pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 5532224,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-frente-unica-pdf",
+          "title": "Vestido frente única",
+          "file": "Vestidos/Vestido frente única.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1218780,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-pet-pdf",
+          "title": "Vestido pet",
+          "file": "Vestidos/vestido pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 6862484,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-pinscher-0-pdf",
+          "title": "Vestido pinscher 0",
+          "file": "Vestidos/Vestido pinscher 0.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 353060,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-pinsher-pdf",
+          "title": "Vestido pinsher",
+          "file": "Vestidos/Vestido pinsher.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 630631,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-primavera-pdf",
+          "title": "Vestido primavera",
+          "file": "Vestidos/Vestido primavera.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 4279328,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-princesa-pdf-versao-1-pdf",
+          "title": "Vestido princesa pdf",
+          "file": "Vestidos/Vestido princesa.pdf · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1638864,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-princess-pdf-versao-1-pdf",
+          "title": "Vestido princess pdf",
+          "file": "Vestidos/vestido princess.pdf · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 581847,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-reciclado-pet-pdf",
+          "title": "Vestido reciclado pet",
+          "file": "Vestidos/vestido reciclado pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 8195186,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-regata-pdf-versao-1-pdf",
+          "title": "Vestido regata pdf",
+          "file": "Vestidos/Vestido regata.pdf · versão 1.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1418309,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-saia-2-camadas-pdf",
+          "title": "Vestido saia 2 camadas",
+          "file": "Vestidos/Vestido saia 2 camadas.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1341929,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-sharlott-pet-pdf",
+          "title": "Vestido sharlott pet",
+          "file": "Vestidos/vestido sharlott pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 6695760,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-simples-pdf",
+          "title": "Vestido simples",
+          "file": "Vestidos/Vestido simples.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 216611,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-soft-pdf",
+          "title": "Vestido soft",
+          "file": "Vestidos/Vestido soft.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 718774,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-tira-pdf",
+          "title": "Vestido tira",
+          "file": "Vestidos/Vestido tira.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 8810353,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestido-vicky-pet-pdf",
+          "title": "Vestido vicky pet",
+          "file": "Vestidos/vestido vicky pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 6582120,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestidos-pet-pdf",
+          "title": "Vestidos pet",
+          "file": "Vestidos/vestidos pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 5904888,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestimune-pet-pdf",
+          "title": "Vestimuñe pet",
+          "file": "Vestidos/vestimuñe pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 5856881,
+          "blobUrl": null
+        },
+        {
+          "id": "vestidos-vestisofi-pet-pdf",
+          "title": "Vestisofi pet",
+          "file": "Vestidos/vestisofi pet.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 7380847,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1-apostila-bonus",
+      "name": "Apostila Completa",
+      "icon": "📘",
+      "type": "bonus",
+      "order": 40,
+      "count": 1,
+      "items": [
+        {
+          "id": "1-apostila-bonus-100-moldes-profissionais-de-roupas-para-pets-2-pdf",
+          "title": "100-Moldes-Profissionais-de-Roupas-para-Pets-2",
+          "file": "1-APOSTILA BONUS/100-Moldes-Profissionais-de-Roupas-para-Pets-2.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1017290,
+          "blobUrl": null
+        }
+      ]
+    },
+    {
+      "id": "extras",
+      "name": "Extras e Bônus",
+      "icon": "🎁",
+      "type": "bonus",
+      "order": 41,
+      "count": 3,
+      "items": [
+        {
+          "id": "extras-base-raca-pug-pdf",
+          "title": "Base raça pug",
+          "file": "EXTRAS/base raça pug.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 1176777,
+          "blobUrl": null
+        },
+        {
+          "id": "extras-como-imprimir-moldes-em-tamanho-real-pdf",
+          "title": "Como imprimir moldes em tamanho real",
+          "file": "EXTRAS/Como imprimir moldes em tamanho real.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 457118,
+          "blobUrl": null
+        },
+        {
+          "id": "extras-pinscher-pdf",
+          "title": "Pinscher",
+          "file": "EXTRAS/pinscher.pdf",
+          "ext": "pdf",
+          "kind": "pdf",
+          "sizeBytes": 3109863,
+          "blobUrl": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Salve aqui as 4 fotos do produto "pet-atelie" com EXATAMENTE estes nomes:
+
+1) cachorro-roupa.jpg     -> cachorro de roupinha
+2) peca-pronta.jpg        -> roupinha dobrada na mesa (acabamento)
+3) gato-vestido.jpg       -> gato com roupinha
+4) processo-costura.jpg   -> mãos costurando na máquina
+
+Caminho final na web: /img/pet-atelie/<arquivo>.jpg
+Para um novo produto, crie outra pasta: public/img/<slug-do-produto>/
