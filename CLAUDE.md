@@ -2,6 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+**Repository:** https://github.com/fidsouza/moldes-pet
+
 ## What this is
 
 A single Next.js 14 App Router app (plain JavaScript, no TypeScript) serving **one
@@ -64,6 +66,16 @@ resulting `blobUrl` back into `content.json` incrementally. Requires
 skipped unless `FORCE=1`. Override the source dir with `CONTENT_DIR`. After uploading, commit
 the updated `content.json` to publish. The viewer (`v/[id]`) shows a "not yet published"
 placeholder when `blobUrl` is null.
+
+## Facebook Pixel (landing)
+
+The landing (`app/pet-atelie/page.js`) loads the Meta/Facebook Pixel via the client
+component `app/pet-atelie/FacebookPixel.jsx` (mounted only on the landing, not on the
+members area). It fires **PageView** on load, **ViewContent** at 25% scroll, and
+**InitiateCheckout** when the real checkout button is clicked (`CheckoutButton.jsx`).
+Pixel ID and checkout link live in `app/pet-atelie/config.js`. Set the checkout URL with
+the **`NEXT_PUBLIC_CHECKOUT_URL`** env var (Vercel → Project → Settings → Environment
+Variables; or `.env.local` for dev) — it falls back to `"#"` when unset.
 
 ## Deploy
 

@@ -1,12 +1,12 @@
 import StickyCta from "./StickyCta";
+import FacebookPixel from "./FacebookPixel";
+import CheckoutButton from "./CheckoutButton";
 
 export const metadata = {
   title: "Pet Ateliê — 100 Moldes Profissionais de Roupas para Pets",
   description:
     "Costure roupas de pet com acabamento profissional e transforme sua costura em renda. 100 moldes prontos para imprimir + 7 bônus, por apenas R$10.",
 };
-
-const CHECKOUT_URL = "#"; // troque pelo link do seu checkout (Hotmart, Kiwify, etc.)
 
 const pills = ["📥 Acesso imediato", "♾️ Vitalício, sem mensalidade", "🇧🇷 Moldes em A4"];
 
@@ -92,6 +92,7 @@ const lightEyebrow = {
 export default function PetAtelie() {
   return (
     <>
+      <FacebookPixel />
       {/* HERO */}
       <header className="hero">
         <div className="wrap hero-grid">
@@ -367,7 +368,7 @@ export default function PetAtelie() {
             <div className="total-row" style={{ fontSize: ".95rem", color: "var(--ink-soft)" }}><span>Sua condição hoje:</span><span></span></div>
             <div className="bigprice"><span className="rs">R$</span><span className="num">10</span></div>
             <div className="inst">pagamento único • sem mensalidade • acesso imediato</div>
-            <a href={CHECKOUT_URL} className="btn">QUERO MEUS MOLDES POR R$10</a>
+            <CheckoutButton>QUERO MEUS MOLDES POR R$10</CheckoutButton>
             <div className="securerow">
               <span>🔒 Compra segura</span><span>⚡ Acesso imediato</span><span>♾️ Acesso vitalício</span>
             </div>
