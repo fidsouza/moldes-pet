@@ -23,3 +23,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# content source files (uploaded to Vercel Blob via `npm run upload`)
+/content-source
